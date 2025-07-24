@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_847b3a538376ef5ff38cf14181c5970d {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_847b3a538376ef5ff38cf14181c5970d" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_847b3a538376ef5ff38cf14181c5970d = L.map(
+                "map_847b3a538376ef5ff38cf14181c5970d",
+                {
+                    center: [41.9028, 12.4964],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 14,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_f8db3087c86f2834d658cd13afdf46aa = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_847b3a538376ef5ff38cf14181c5970d);
+        
+    
+            var marker_8488898b00ac1428fb477db70d898982 = L.marker(
+                [41.9022, 12.4539],
+                {}
+            ).addTo(map_847b3a538376ef5ff38cf14181c5970d);
+        
+    
+        var popup_2c0a2593dd6605854a66a94bf9121734 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_73a9179046d64821ed3f6e3bc9d83ce8 = $(`<div id="html_73a9179046d64821ed3f6e3bc9d83ce8" style="width: 100.0%; height: 100.0%;">Ciudad del Vaticano - Basílica de San Pedro</div>`)[0];
+            popup_2c0a2593dd6605854a66a94bf9121734.setContent(html_73a9179046d64821ed3f6e3bc9d83ce8);
+        
+
+        marker_8488898b00ac1428fb477db70d898982.bindPopup(popup_2c0a2593dd6605854a66a94bf9121734)
+        ;
+
+        
+    
+    
+            marker_8488898b00ac1428fb477db70d898982.bindTooltip(
+                `<div>
+                     Ciudad del Vaticano - Basílica de San Pedro
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5fd55aefb05d85fe15f9f0f373747128 = L.marker(
+                [41.8986, 12.4768],
+                {}
+            ).addTo(map_847b3a538376ef5ff38cf14181c5970d);
+        
+    
+        var popup_ad88154b86c9721df22b9947fcb4cc8f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fff8b08294f7617f139d8671aba61ab8 = $(`<div id="html_fff8b08294f7617f139d8671aba61ab8" style="width: 100.0%; height: 100.0%;">Panteón de Agripa</div>`)[0];
+            popup_ad88154b86c9721df22b9947fcb4cc8f.setContent(html_fff8b08294f7617f139d8671aba61ab8);
+        
+
+        marker_5fd55aefb05d85fe15f9f0f373747128.bindPopup(popup_ad88154b86c9721df22b9947fcb4cc8f)
+        ;
+
+        
+    
+    
+            marker_5fd55aefb05d85fe15f9f0f373747128.bindTooltip(
+                `<div>
+                     Panteón de Agripa
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_649b9a6d714e7926ae4259ea8b0f14ba = L.marker(
+                [41.8925, 12.4853],
+                {}
+            ).addTo(map_847b3a538376ef5ff38cf14181c5970d);
+        
+    
+        var popup_02f29dc04bcfc5e21d0f34e0bf13edeb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f2659aa8d43c15b9c34ea556b7fd470b = $(`<div id="html_f2659aa8d43c15b9c34ea556b7fd470b" style="width: 100.0%; height: 100.0%;">Foro Romano + Monte Palatino</div>`)[0];
+            popup_02f29dc04bcfc5e21d0f34e0bf13edeb.setContent(html_f2659aa8d43c15b9c34ea556b7fd470b);
+        
+
+        marker_649b9a6d714e7926ae4259ea8b0f14ba.bindPopup(popup_02f29dc04bcfc5e21d0f34e0bf13edeb)
+        ;
+
+        
+    
+    
+            marker_649b9a6d714e7926ae4259ea8b0f14ba.bindTooltip(
+                `<div>
+                     Foro Romano + Monte Palatino
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_00d9143490084daf2e9fd9e1657f8ccd = L.marker(
+                [41.8934, 12.4876],
+                {}
+            ).addTo(map_847b3a538376ef5ff38cf14181c5970d);
+        
+    
+        var popup_853e7cc7becef4088f54e23d06c337d2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5021ff318a26bb074fce6d35c269933a = $(`<div id="html_5021ff318a26bb074fce6d35c269933a" style="width: 100.0%; height: 100.0%;">Restaurantes cerca del Coliseo</div>`)[0];
+            popup_853e7cc7becef4088f54e23d06c337d2.setContent(html_5021ff318a26bb074fce6d35c269933a);
+        
+
+        marker_00d9143490084daf2e9fd9e1657f8ccd.bindPopup(popup_853e7cc7becef4088f54e23d06c337d2)
+        ;
+
+        
+    
+    
+            marker_00d9143490084daf2e9fd9e1657f8ccd.bindTooltip(
+                `<div>
+                     Restaurantes cerca del Coliseo
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6057e5295c0954e01d8c5ab23f439aee = L.marker(
+                [41.8902, 12.4922],
+                {}
+            ).addTo(map_847b3a538376ef5ff38cf14181c5970d);
+        
+    
+        var popup_91f89fe60951df3ded2861ac6bc9ea34 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_59c0daa48c4f454e157842df966428b8 = $(`<div id="html_59c0daa48c4f454e157842df966428b8" style="width: 100.0%; height: 100.0%;">Coliseo Romano</div>`)[0];
+            popup_91f89fe60951df3ded2861ac6bc9ea34.setContent(html_59c0daa48c4f454e157842df966428b8);
+        
+
+        marker_6057e5295c0954e01d8c5ab23f439aee.bindPopup(popup_91f89fe60951df3ded2861ac6bc9ea34)
+        ;
+
+        
+    
+    
+            marker_6057e5295c0954e01d8c5ab23f439aee.bindTooltip(
+                `<div>
+                     Coliseo Romano
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a8944cc3a17e438d901022e53282ff87 = L.marker(
+                [41.901, 12.5018],
+                {}
+            ).addTo(map_847b3a538376ef5ff38cf14181c5970d);
+        
+    
+        var popup_5ba609c541a7b249aad843ae4196eeb3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_75dec63b5fbcf6160d62e65753571cf7 = $(`<div id="html_75dec63b5fbcf6160d62e65753571cf7" style="width: 100.0%; height: 100.0%;">Roma Termini</div>`)[0];
+            popup_5ba609c541a7b249aad843ae4196eeb3.setContent(html_75dec63b5fbcf6160d62e65753571cf7);
+        
+
+        marker_a8944cc3a17e438d901022e53282ff87.bindPopup(popup_5ba609c541a7b249aad843ae4196eeb3)
+        ;
+
+        
+    
+    
+            marker_a8944cc3a17e438d901022e53282ff87.bindTooltip(
+                `<div>
+                     Roma Termini
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>
